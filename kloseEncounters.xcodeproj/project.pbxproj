@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		254424A71656F72100E90C0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254424A61656F72100E90C0F /* UIKit.framework */; };
+		254424A91656F72100E90C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254424A81656F72100E90C0F /* Foundation.framework */; };
+		254424AB1656F72100E90C0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 254424AA1656F72100E90C0F /* CoreGraphics.framework */; };
+		254424B11656F72100E90C0F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 254424AF1656F72100E90C0F /* InfoPlist.strings */; };
+		254424B31656F72100E90C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254424B21656F72100E90C0F /* main.m */; };
+		254424B71656F72100E90C0F /* kloseEncountersAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254424B61656F72100E90C0F /* kloseEncountersAppDelegate.m */; };
+		254424B91656F72100E90C0F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 254424B81656F72100E90C0F /* Default.png */; };
+		254424BB1656F72100E90C0F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254424BA1656F72100E90C0F /* Default@2x.png */; };
+		254424BD1656F72100E90C0F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 254424BC1656F72100E90C0F /* Default-568h@2x.png */; };
+		254424C01656F72100E90C0F /* kloseEncountersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254424BF1656F72100E90C0F /* kloseEncountersViewController.m */; };
+		254424C31656F72100E90C0F /* kloseEncountersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 254424C11656F72100E90C0F /* kloseEncountersViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		254424A21656F72100E90C0F /* kloseEncounters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kloseEncounters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		254424A61656F72100E90C0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		254424A81656F72100E90C0F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		254424AA1656F72100E90C0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		254424AE1656F72100E90C0F /* kloseEncounters-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kloseEncounters-Info.plist"; sourceTree = "<group>"; };
+		254424B01656F72100E90C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		254424B21656F72100E90C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		254424B41656F72100E90C0F /* kloseEncounters-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kloseEncounters-Prefix.pch"; sourceTree = "<group>"; };
+		254424B51656F72100E90C0F /* kloseEncountersAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kloseEncountersAppDelegate.h; sourceTree = "<group>"; };
+		254424B61656F72100E90C0F /* kloseEncountersAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kloseEncountersAppDelegate.m; sourceTree = "<group>"; };
+		254424B81656F72100E90C0F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		254424BA1656F72100E90C0F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		254424BC1656F72100E90C0F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		254424BE1656F72100E90C0F /* kloseEncountersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kloseEncountersViewController.h; sourceTree = "<group>"; };
+		254424BF1656F72100E90C0F /* kloseEncountersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kloseEncountersViewController.m; sourceTree = "<group>"; };
+		254424C21656F72100E90C0F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/kloseEncountersViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2544249F1656F72100E90C0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254424A71656F72100E90C0F /* UIKit.framework in Frameworks */,
+				254424A91656F72100E90C0F /* Foundation.framework in Frameworks */,
+				254424AB1656F72100E90C0F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		254424971656F72100E90C0F = {
+			isa = PBXGroup;
+			children = (
+				254424AC1656F72100E90C0F /* kloseEncounters */,
+				254424A51656F72100E90C0F /* Frameworks */,
+				254424A31656F72100E90C0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		254424A31656F72100E90C0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				254424A21656F72100E90C0F /* kloseEncounters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		254424A51656F72100E90C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				254424A61656F72100E90C0F /* UIKit.framework */,
+				254424A81656F72100E90C0F /* Foundation.framework */,
+				254424AA1656F72100E90C0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		254424AC1656F72100E90C0F /* kloseEncounters */ = {
+			isa = PBXGroup;
+			children = (
+				254424B51656F72100E90C0F /* kloseEncountersAppDelegate.h */,
+				254424B61656F72100E90C0F /* kloseEncountersAppDelegate.m */,
+				254424BE1656F72100E90C0F /* kloseEncountersViewController.h */,
+				254424BF1656F72100E90C0F /* kloseEncountersViewController.m */,
+				254424C11656F72100E90C0F /* kloseEncountersViewController.xib */,
+				254424AD1656F72100E90C0F /* Supporting Files */,
+			);
+			path = kloseEncounters;
+			sourceTree = "<group>";
+		};
+		254424AD1656F72100E90C0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				254424AE1656F72100E90C0F /* kloseEncounters-Info.plist */,
+				254424AF1656F72100E90C0F /* InfoPlist.strings */,
+				254424B21656F72100E90C0F /* main.m */,
+				254424B41656F72100E90C0F /* kloseEncounters-Prefix.pch */,
+				254424B81656F72100E90C0F /* Default.png */,
+				254424BA1656F72100E90C0F /* Default@2x.png */,
+				254424BC1656F72100E90C0F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		254424A11656F72100E90C0F /* kloseEncounters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 254424C61656F72100E90C0F /* Build configuration list for PBXNativeTarget "kloseEncounters" */;
+			buildPhases = (
+				2544249E1656F72100E90C0F /* Sources */,
+				2544249F1656F72100E90C0F /* Frameworks */,
+				254424A01656F72100E90C0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kloseEncounters;
+			productName = kloseEncounters;
+			productReference = 254424A21656F72100E90C0F /* kloseEncounters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		254424991656F72100E90C0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = kloseEncounters;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = prepcloud;
+			};
+			buildConfigurationList = 2544249C1656F72100E90C0F /* Build configuration list for PBXProject "kloseEncounters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 254424971656F72100E90C0F;
+			productRefGroup = 254424A31656F72100E90C0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				254424A11656F72100E90C0F /* kloseEncounters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		254424A01656F72100E90C0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254424B11656F72100E90C0F /* InfoPlist.strings in Resources */,
+				254424B91656F72100E90C0F /* Default.png in Resources */,
+				254424BB1656F72100E90C0F /* Default@2x.png in Resources */,
+				254424BD1656F72100E90C0F /* Default-568h@2x.png in Resources */,
+				254424C31656F72100E90C0F /* kloseEncountersViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2544249E1656F72100E90C0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254424B31656F72100E90C0F /* main.m in Sources */,
+				254424B71656F72100E90C0F /* kloseEncountersAppDelegate.m in Sources */,
+				254424C01656F72100E90C0F /* kloseEncountersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		254424AF1656F72100E90C0F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254424B01656F72100E90C0F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		254424C11656F72100E90C0F /* kloseEncountersViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				254424C21656F72100E90C0F /* en */,
+			);
+			name = kloseEncountersViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		254424C41656F72100E90C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		254424C51656F72100E90C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		254424C71656F72100E90C0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kloseEncounters/kloseEncounters-Prefix.pch";
+				INFOPLIST_FILE = "kloseEncounters/kloseEncounters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		254424C81656F72100E90C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kloseEncounters/kloseEncounters-Prefix.pch";
+				INFOPLIST_FILE = "kloseEncounters/kloseEncounters-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2544249C1656F72100E90C0F /* Build configuration list for PBXProject "kloseEncounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254424C41656F72100E90C0F /* Debug */,
+				254424C51656F72100E90C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		254424C61656F72100E90C0F /* Build configuration list for PBXNativeTarget "kloseEncounters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				254424C71656F72100E90C0F /* Debug */,
+				254424C81656F72100E90C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 254424991656F72100E90C0F /* Project object */;
+}
