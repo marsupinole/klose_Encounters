@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AudioController.h"
 
-@interface kloseEncountersViewController : UIViewController
+@interface kloseEncountersViewController : UIViewController {
+    IBOutlet AudioController *audioController;
+}
+
+@property (readonly, nonatomic) AudioController *audioController;
 
 @end
